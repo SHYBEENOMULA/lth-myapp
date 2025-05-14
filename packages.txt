@@ -1,7 +1,7 @@
-# packages.txt
 libgl1
 libglib2.0-0
-libgomp1  # OpenMP 支持
+libgomp1
 libsm6
 libxrender1
 libxext6
+libstdc++6  # 解决 GLIBCXX 依赖问题
