@@ -113,7 +113,7 @@ if uploaded:
                 st.error("以下所选内容不属于常见添加剂，请重新选择：" + ", ".join(invalid))
             else:
                 with st.spinner("分析进行中..."):
-                    res = analyze_ingredients(valid)
+                    res = analyze_ingredients(selected) 
                 st.markdown(
                     f'<div class="result-box">{res}</div>',
                     unsafe_allow_html=True
