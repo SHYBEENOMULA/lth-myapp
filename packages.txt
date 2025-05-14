@@ -1,2 +1,7 @@
+# packages.txt
 libgl1
 libglib2.0-0
+libgomp1  # OpenMP 支持
+libsm6
+libxrender1
+libxext6
