@@ -5,7 +5,22 @@ import re
 import time
 from sparkai.llm.llm import ChatSparkLLM
 from sparkai.core.messages import ChatMessage
+import sys
+import subprocess
 
+def ensure_package(pkg_name):
+    try:
+        __import__(pkg_name)
+    except ImportError:
+        subprocess.check_call([sys.executable, "-m", "pip", "install", pkg_name])
+
+# 在真正用到 cnocr、sparkai 之前先确保它们被安装
+ensure_package("cnocr")
+ensure_package("sparkai")
+
+# 然后再正常导入
+from cnocr import CnOcr
+from sparkai.llm.llm import ChatSparkLLM
 # === 页面配置，必须最先调用 ===
 st.set_page_config(page_title="智能食品成分分析", layout="wide")
 
