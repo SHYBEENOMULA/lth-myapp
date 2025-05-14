@@ -1,7 +1,4 @@
---index-url https://pypi.tuna.tsinghua.edu.cn/simple
-streamlit==1.30.0
-cnocr==2.2.2.2
-pillow==10.0.0
-protobuf==3.20.3
-torch==2.0.1
-git+ssh://git@github.com/iflytek/SparkAI.git  # 确认官方仓库名称正确性[9](@ref)
+streamlit
+openai
+requests
+sparkai
