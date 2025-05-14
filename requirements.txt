@@ -4,4 +4,4 @@ cnocr==2.2.2.2
 pillow==10.0.0
 protobuf==3.20.3
 torch==2.0.1
-git+https://github.com/iflytek/SparkAI.git
+git+ssh://git@github.com/iflytek/SparkAI.git  # 确认官方仓库名称正确性[9](@ref)
