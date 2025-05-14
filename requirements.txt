@@ -2,3 +2,5 @@ streamlit
 openai
 requests
 sparkai
+pillow
+cnocr
