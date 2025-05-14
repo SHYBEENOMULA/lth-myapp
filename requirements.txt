@@ -1,7 +1,7 @@
 --index-url https://pypi.tuna.tsinghua.edu.cn/simple
-streamlit>=1.0
-cnocr>=2.2.2.2
-pillow>=10.0
-protobuf==3.20.3  # 版本锁定避免冲突
-torch>=2.0  # 解决sparkai依赖
-git+https://github.com/iflytek/sparkai-python.git  # 星火官方SDK
+streamlit==1.30.0
+cnocr==2.2.2.2
+pillow==10.0.0
+protobuf==3.20.3
+torch==2.0.1
+git+https://github.com/iflytek/SparkAI.git
