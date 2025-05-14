@@ -1,6 +1,2 @@
-# requirements.txt
-cnocr==2.3.1
-pillow==10.3.0
-sparkai==0.3.0
-opencv-python-headless==4.9.0.80  # 必须使用 headless 版本
-onnxruntime==1.17.1  # 明确指定版本
+streamlit>=1.0
+cnocr>=2.0
