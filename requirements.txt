@@ -1,5 +1,5 @@
 streamlit
 requests
-sparkai==3.5.0  # 假设这是正确的版本
+sparkai
 pillow
 cnocr
