@@ -1,0 +1,4 @@
+cnocr>=2.2.2
+pillow>=9.0.0
+sparkai
+python-opencv  # cnocr 依赖的底层库
