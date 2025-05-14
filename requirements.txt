@@ -1,4 +1,6 @@
+# requirements.txt
 cnocr>=2.2.2
 pillow>=9.0.0
 sparkai
-python-opencv  # cnocr 依赖的底层库
+opencv-python-headless==4.9.0.80  # 使用 headless 版本避免 GUI 依赖
+onnxruntime>=1.15.0
