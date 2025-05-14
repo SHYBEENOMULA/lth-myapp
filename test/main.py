@@ -9,6 +9,13 @@ from sparkai.core.messages import ChatMessage
 # === 页面配置，必须最先调用 ===
 st.set_page_config(page_title="智能食品成分分析", layout="wide")
 
+# 初始化 OCR 时添加离线配置
+ocr = CnOcr(
+    model_name='densenet_lite_136-fc',
+    model_dir='./models',  # 本地模型目录
+    root='./'  # 强制禁用自动下载
+)
+
 # === 自定义CSS样式 ===
 st.markdown(
     """
